@@ -1,0 +1,1 @@
+print("Welcome to the Level 1 game")
