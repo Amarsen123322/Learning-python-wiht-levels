@@ -34,3 +34,34 @@
 
 #print("Game Over")
 
+
+#Error
+
+#students = 5
+
+#while students > 0:
+#    question = int(input("Enter Student Score: "))
+#    if question >= 50:
+#        print("Pass")
+#        students -= 1
+#    else:
+#        print("Fail")
+#print("Student passed", students)
+
+# Fixed Error
+
+#students = 5
+#passed = 0
+
+#while students > 0:
+#    question = int(input("Enter Student Score: "))
+
+#    if question >= 50:
+#        print("Pass")
+#        passed += 1
+#    else:
+#        print("Fail")
+
+#    students -= 1
+
+#print("Students passed:", passed)
