@@ -129,3 +129,16 @@
 #        print("Invalid input")
 
 #print("Enemies defeated:", defeated)
+
+# Corrected
+#portions = 3
+#while portions > 0:
+#    question = input("Use a potion? yes/no: ")
+#    if question == "yes":
+#        print("portion used")
+#        portions -= 1
+#    elif question == "no":
+#        print("portion not used")
+#    else:
+#        print("Invalid input")
+#print("no portion left")
