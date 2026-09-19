@@ -66,3 +66,31 @@
 
 #print("Students passed:", passed)
 
+#Error
+
+#games = ["Hanuman", "Wukong", "GTA", "God of War", "FIFA"]
+#found = False
+#question = input("name a game : ")
+#for game in games:
+#    if game == question:
+#        found = True
+#        print("game found")
+#    else:
+#        print("game not found")
+
+#Fixed
+#games = ["Hanuman", "Wukong", "GTA", "God of War", "FIFA"]
+
+#found = False
+
+#question = input("Name a game: ")
+
+#for game in games:
+#    if game == question:
+#        found = True
+
+#if found:
+#    print("Game found")
+#else:
+#    print("Game not found")
+
