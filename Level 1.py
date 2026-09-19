@@ -94,3 +94,38 @@
 #else:
 #    print("Game not found")
 
+#error
+
+#enemy = 5
+#defeated = 5
+
+#while enemy > 0:
+#    question = input("Did you defeat the enemy yes/no: ")
+#    if question == "no":
+#        print ("Enemy survived")
+#    else:
+#        print ("enemy Defeated")
+#        enemy -= 1
+#    print("enemies defeated : ", enemy)
+
+
+#Fixed code
+#enemy = 5
+#defeated = 0
+
+#while enemy > 0:
+#    question = input("Did you defeat the enemy? yes/no: ")
+
+#    if question == "yes":
+#        print("Enemy defeated!")
+#       defeated += 1
+#        enemy -= 1
+
+#    elif question == "no":
+#        print("Enemy survived!")
+#        enemy -= 1
+
+#   else:
+#        print("Invalid input")
+
+#print("Enemies defeated:", defeated)
