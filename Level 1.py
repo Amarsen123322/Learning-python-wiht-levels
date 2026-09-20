@@ -142,3 +142,41 @@
 #    else:
 #        print("Invalid input")
 #print("no portion left")
+
+# Error
+
+#coins = 100
+
+#while coins > 0:
+#    question = input("Do you want to buy or skip coins: ")
+#    if question == "buy":
+#        coins -= 20
+#        print("You buy coins.")
+#    elif question == "skip":
+#        print("skipped")
+#    else:
+#        print("Please enter either buy or skip")
+#print("Game over")
+
+#Fixed
+
+#coins = 100
+
+#while coins > 0:
+#    question = input("Do you want to buy or skip? ")
+
+#    if question == "buy":
+#        if coins >= 20:
+#            coins -= 20
+#            print("You bought an item. Coins left:", coins)
+#        else:
+#            print("Not enough coins")
+
+#    elif question == "skip":
+#        print("Skipped")
+
+#    else:
+#        print("Please enter either buy or skip")
+
+#print("Game Over")
+
