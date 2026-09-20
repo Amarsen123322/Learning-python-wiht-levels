@@ -198,3 +198,16 @@
 #        matches += 1
 
 #print("Games matched:", matches)
+
+
+#Fixed
+
+enemies = [10, 25, 15, 30, 20]
+
+total_damage = 0
+
+for damage in enemies:
+    print("Damage:", damage)
+    total_damage += damage
+
+print("Total damage:", total_damage)
