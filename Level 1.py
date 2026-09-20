@@ -180,3 +180,21 @@
 
 #print("Game Over")
 
+#Error
+
+#games = ["Hanuman", "Wukong", "GTA", "God of War", "FIFA"]
+#for game in games:
+#    if len(game) == 3:
+#        print(game)
+
+#corrected
+#games = ["Hanuman", "Wukong", "GTA", "God of War", "FIFA"]
+
+#matches = 0
+
+#for game in games:
+#    if len(game) > 3:
+#        print(game)
+#        matches += 1
+
+#print("Games matched:", matches)
