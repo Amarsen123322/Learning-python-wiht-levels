@@ -1,4 +1,5 @@
 #print("Welcome to the Level 1 game")
+from importlib.metadata import pass_none
 
 # 3 life
 #Mistake
@@ -244,3 +245,27 @@
 #        print("Exhausted")
 
 #print("Training complete")
+#error
+#scores = [45, 72, 90, 33, 61, 88]
+#pass = 0
+#for score in scores:
+#    if score > 50:
+#        print("You win!")
+#        pass += 1
+#    elif score < 50:
+#        print("You lose!")
+#print ("Students passed:",pass)
+
+#Fixed
+#scores = [45, 72, 90, 33, 61, 88]
+
+#passed = 0
+
+#for score in scores:
+#    if score >= 50:
+#        print("Pass")
+#        passed += 1
+#    else:
+#        print("Fail")
+
+#print("Students passed:", passed)
