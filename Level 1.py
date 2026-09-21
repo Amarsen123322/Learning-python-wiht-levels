@@ -213,3 +213,34 @@
 #print("Total damage:", total_damage)
 
 #Training Stamina
+
+#Error
+
+#Stamina = 100
+#while Stamina > 0:
+#    question = int(input("How much stamina did you use?: "))
+#    left = 100 - question
+#    if left > 50:
+#        print("Strong")
+#    elif left > 1:
+#        print("Weak")
+#    else:
+#        print("Exhausted")
+#print("Traning completed")
+
+#Fixed
+#stamina = 100
+
+#while stamina > 0:
+#    question = int(input("How much stamina did you use?: "))
+
+#    stamina -= question
+
+#    if stamina > 50:
+#        print("Strong", stamina)
+#    elif stamina > 0:
+#        print("Tired", stamina)
+#    else:
+#        print("Exhausted")
+
+#print("Training complete")
