@@ -279,11 +279,8 @@ from importlib.metadata import pass_none
 
 #Correct
 enemies = [25, 70, 45, 90, 60, 30]
-
 strongest = 0
-
 for health in enemies:
     if health > strongest:
         strongest = health
-
 print("Strongest enemy health:", strongest)
