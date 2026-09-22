@@ -269,3 +269,21 @@ from importlib.metadata import pass_none
 #        print("Fail")
 
 #print("Students passed:", passed)
+
+#Find the Strongest Enemy
+#Error
+#enemies = [25, 70, 45, 90, 60, 30]
+#for en in enemies:
+#    if en > 90:
+#        print("Strongest enemy health: ", en)
+
+#Correct
+enemies = [25, 70, 45, 90, 60, 30]
+
+strongest = 0
+
+for health in enemies:
+    if health > strongest:
+        strongest = health
+
+print("Strongest enemy health:", strongest)
