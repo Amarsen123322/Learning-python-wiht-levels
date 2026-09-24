@@ -289,4 +289,8 @@ health = 100
 
 while health > 0:
     question = int(input("How much damage did the enemy deal? : "))
-    if
+    if question > 50:
+        print ("healthy")
+    elif question > 1:
+        print ("Wounded")
+
