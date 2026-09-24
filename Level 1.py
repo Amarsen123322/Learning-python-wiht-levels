@@ -300,18 +300,25 @@ from importlib.metadata import pass_none
 
 #Fixed
 
-health = 100
+#health = 100
 
-while health > 0:
-    damage = int(input("How much damage did the enemy deal? "))
+#while health > 0:
+#    damage = int(input("How much damage did the enemy deal? "))
 
-    health -= damage
+#    health -= damage
 
-    if health > 50:
-        print("Healthy")
-    elif health > 0:
-        print("Wounded")
-    else:
-        print("Dead")
+#    if health > 50:
+#        print("Healthy")
+#    elif health > 0:
+#        print("Wounded")
+#    else:
+#        print("Dead")
 
-print("Game Over")
+#print("Game Over")
+
+scores = [75, 42, 91, 28, 63, 55]
+low = 0
+for score in scores:
+    if score < low:
+        low = score
+print(low)
