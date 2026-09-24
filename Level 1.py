@@ -315,10 +315,21 @@ from importlib.metadata import pass_none
 #        print("Dead")
 
 #print("Game Over")
+#Error
+#scores = [75, 42, 91, 28, 63, 55]
+#low = 0
+#for score in scores:
+#    if score < low:
+#        low = score
+#print(low)
+#Fixed
 
 scores = [75, 42, 91, 28, 63, 55]
-low = 0
+
+lowest = scores[0]
+
 for score in scores:
-    if score < low:
-        low = score
-print(low)
+    if score < lowest:
+        lowest = score
+
+print("Lowest score:", lowest)
