@@ -285,12 +285,33 @@ from importlib.metadata import pass_none
 #        strongest = health
 #print("Strongest enemy health:", strongest)
 
+# Error
+
+#health = 100
+
+#while health > 0:
+#    question = int(input("How much damage did the enemy deal? : "))
+#    if question > 50:
+#        print ("healthy")
+#    elif question > 1:
+#        print ("Wounded")
+#    else:
+#        print ("dead")
+
+#Fixed
+
 health = 100
 
 while health > 0:
-    question = int(input("How much damage did the enemy deal? : "))
-    if question > 50:
-        print ("healthy")
-    elif question > 1:
-        print ("Wounded")
+    damage = int(input("How much damage did the enemy deal? "))
 
+    health -= damage
+
+    if health > 50:
+        print("Healthy")
+    elif health > 0:
+        print("Wounded")
+    else:
+        print("Dead")
+
+print("Game Over")
