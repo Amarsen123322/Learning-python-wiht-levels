@@ -324,12 +324,12 @@ from importlib.metadata import pass_none
 #print(low)
 #Fixed
 
-scores = [75, 42, 91, 28, 63, 55]
+#scores = [75, 42, 91, 28, 63, 55]
 
-lowest = scores[0]
+#lowest = scores[0]
 
-for score in scores:
-    if score < lowest:
-        lowest = score
+#for score in scores:
+#    if score < lowest:
+#        lowest = score
 
-print("Lowest score:", lowest)
+#print("Lowest score:", lowest)
