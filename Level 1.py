@@ -380,11 +380,27 @@ import numpy as np
 # player["level"] += 1
 # print(player)
 
-enemy_health = [20, 75, 40, 90, 15]
-strong_enemies = 0
+# enemy_health = [20, 75, 40, 90, 15]
+# strong_enemies = 0
+#
+# for health in enemy_health:
+#     if health > 50:
+#         strong_enemies += 1
+#
+# print(strong_enemies)
 
-for health in enemy_health:
-    if health > 50:
-        strong_enemies += 1
-
-print(strong_enemies)
+# player = {
+#     "health": 100,
+#     "potions": 2
+# }
+#
+# damage = [20, 30, 10]
+#
+# for hit in damage:
+#     player["health"] -= hit
+#
+#     if player["health"] <= 50:
+#         print("Low health")
+#
+# print(player["health"])
+# print(player["potions"])
