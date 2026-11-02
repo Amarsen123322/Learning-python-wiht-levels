@@ -370,13 +370,21 @@ import numpy as np
 #
 # print(games)
 
-player = {
-    "name": "Amar",
-    "health": 100,
-    "level": 2
-}
+# player = {
+#     "name": "Amar",
+#     "health": 100,
+#     "level": 2
+# }
+#
+# player["health"] -= 10
+# player["level"] += 1
+# print(player)
 
-player["health"] -= 10
-player["level"] += 1
-print(player)
+enemy_health = [20, 75, 40, 90, 15]
+strong_enemies = 0
 
+for health in enemy_health:
+    if health > 50:
+        strong_enemies += 1
+
+print(strong_enemies)
