@@ -360,13 +360,23 @@ import numpy as np
 # a= np.array([5, 6, 7])
 # print(a)
 
-games = ["Hanuman", "Wukong", "GTA"]
+# games = ["Hanuman", "Wukong", "GTA"]
+#
+# print(games[0])       # Hanuman
+# print(len(games))     # 3
+#
+# games.append("FIFA")
+# games[1] = "God of War"
+#
+# print(games)
 
-print(games[0])       # Hanuman
-print(len(games))     # 3
+player = {
+    "name": "Amar",
+    "health": 100,
+    "level": 2
+}
 
-games.append("FIFA")
-games[1] = "God of War"
-
-print(games)
+player["health"] -= 10
+player["level"] += 1
+print(player)
 
