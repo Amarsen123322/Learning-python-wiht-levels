@@ -333,3 +333,40 @@ from importlib.metadata import pass_none
 #        lowest = score
 
 #print("Lowest score:", lowest)
+
+# n = 15
+#
+# if n % 3 == 0 and n % 5 == 0:
+#     print("FizzBuzz")
+# elif n % 3 == 0:
+#     print("Fizz")
+# elif n % 5 == 0:
+#     print("Buzz")
+# else:
+#     print(n)
+
+import numpy as np
+
+# x = np.array([1, 2, 3])
+# y = np.array([1, 2, 3])
+# z = np.dot(x, y)
+# print(z)
+#
+#
+# x = np.array([1, 2, 3])
+# y = np.array([1, 2, 3])
+# z = x+y
+# print(z)
+# a= np.array([5, 6, 7])
+# print(a)
+
+games = ["Hanuman", "Wukong", "GTA"]
+
+print(games[0])       # Hanuman
+print(len(games))     # 3
+
+games.append("FIFA")
+games[1] = "God of War"
+
+print(games)
+
